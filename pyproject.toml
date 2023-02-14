@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "textmetrics"
+name = "text_metrics"
 version = "0.1.0"
 description = ""
 authors = ["Alvin So <r.alvso@icloud.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.8, <=3.12"
+python = ">=3.9, <3.11"
 jupyter = ">=1.0.0"
 matplotlib = ">=3.5.2"
 selenium = ">=4.7.2"
@@ -19,7 +19,7 @@ pyinquirer = "^1.0.3"
 typer = "^0.7.0"
 requests = "^2.28.2"
 loguru = "^0.6.0"
-celery = {extras = ["redis"], version = "^5.2.7"}
+celery = { extras = ["redis"], version = "^5.2.7"}
 munch = "^2.5.0"
 
 [tool.poetry.dev-dependencies]
