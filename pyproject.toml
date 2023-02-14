@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "textmetrics"
+version = "0.1.0"
+description = ""
+authors = ["Alvin So <r.alvso@icloud.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <=3.12"
+jupyter = ">=1.0.0"
+matplotlib = ">=3.5.2"
+selenium = ">=4.7.2"
+pip = ">=22.3.1"
+types-selenium = ">=3.141.9"
+pandas = ">=1.5.2"
+torch = "^1.13.1"
+transformers = "^4.25.1"
+tqdm = "^4.64.1"
+pyinquirer = "^1.0.3"
+typer = "^0.7.0"
+requests = "^2.28.2"
+loguru = "^0.6.0"
+celery = {extras = ["redis"], version = "^5.2.7"}
+munch = "^2.5.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
