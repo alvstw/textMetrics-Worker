@@ -1,9 +1,9 @@
 import requests
 
-from text_metrics.modules.helpers.server import api_base_url, handle_response
-from text_metrics.modules.helpers.string_helper import encode_url
-from text_metrics.modules.models.product import Product
-from text_metrics.modules.models.utilities.server_response import ServerResponse
+from textmetrics.modules.helpers.server import api_base_url, handle_response
+from textmetrics.modules.helpers.string_helper import encode_url
+from textmetrics.modules.models.product import Product
+from textmetrics.modules.models.utilities.server_response import ServerResponse
 
 
 def post_amazon_product(asin: str, name: str, description: str, url: str, images: list[str], job_id: int = None) -> \

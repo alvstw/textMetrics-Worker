@@ -1,8 +1,8 @@
 from tqdm import tqdm
 
-from text_metrics.modules.analyzers.sentimental_analysis import SentimentalAnalysis
-from text_metrics.modules.enums.polarity import Polarity
-from text_metrics.modules.training import Training
+from textmetrics.modules.analyzers.sentimental_analysis import SentimentalAnalysis
+from textmetrics.modules.enums.polarity import Polarity
+from textmetrics.modules.training import Training
 
 analyzer = SentimentalAnalysis()
 

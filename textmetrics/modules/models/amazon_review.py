@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from text_metrics.modules.models.review import Review
+from textmetrics.modules.models.review import Review
 
 
 @dataclass

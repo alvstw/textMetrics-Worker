@@ -1,11 +1,11 @@
 import random
 
-from text_metrics.modules.enums.general import DatasetType
-from text_metrics.modules.extractors.amazon_review_polarity import extract_amazon_review_polarity_csv
-from text_metrics.modules.extractors.twitter_data_1 import extract_twitter_data_1
-from text_metrics.modules.extractors.twitter_data_2 import extract_twitter_data_2
-from text_metrics.modules.models.label_data import LabelData
-from text_metrics.modules.trainers.bert import train_bret
+from textmetrics.modules.enums.general import DatasetType
+from textmetrics.modules.extractors.amazon_review_polarity import extract_amazon_review_polarity_csv
+from textmetrics.modules.extractors.twitter_data_1 import extract_twitter_data_1
+from textmetrics.modules.extractors.twitter_data_2 import extract_twitter_data_2
+from textmetrics.modules.models.label_data import LabelData
+from textmetrics.modules.trainers.bert import train_bret
 
 
 class Training:

@@ -1,10 +1,10 @@
 from celery.utils.log import get_task_logger
 from munch import DefaultMunch
 
-from text_metrics.fetch import Fetcher
-from text_metrics.modules.helpers.server.job_api import get_dispatched_jobs
-from text_metrics.modules.models.job import Job
-from text_metrics.worker import app
+from textmetrics.fetch import Fetcher
+from textmetrics.modules.helpers.server.job_api import get_dispatched_jobs
+from textmetrics.modules.models.job import Job
+from textmetrics.worker import app
 
 logger = get_task_logger(__name__)
 

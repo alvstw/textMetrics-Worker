@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from datetime import datetime
 
-from text_metrics.modules.enums.job import JobStatus, JobPriority, JobType
+from textmetrics.modules.enums.job import JobStatus, JobPriority, JobType
 
 
 @dataclass

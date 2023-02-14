@@ -3,10 +3,10 @@ from time import sleep
 
 from loguru import logger
 
-from text_metrics.modules.enums.job import JobStatus
-from text_metrics.modules.helpers.server.job_api import get_dispatched_jobs
-from text_metrics.modules.helpers.terminal_helper import TerminalHelper
-from text_metrics.modules.models.job import Job
+from textmetrics.modules.enums.job import JobStatus
+from textmetrics.modules.helpers.server.job_api import get_dispatched_jobs
+from textmetrics.modules.helpers.terminal_helper import TerminalHelper
+from textmetrics.modules.models.job import Job
 
 import text_metrics.modules.tasks as tasks
 

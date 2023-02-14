@@ -1,7 +1,7 @@
 import pandas as pd
 
-from text_metrics.modules.enums.general import DatasetType
-from text_metrics.modules.models.label_data import LabelData, Polarity
+from textmetrics.modules.enums.general import DatasetType
+from textmetrics.modules.models.label_data import LabelData, Polarity
 
 
 def extract_twitter_data_1(dataset_type: DatasetType = DatasetType.TRAIN):

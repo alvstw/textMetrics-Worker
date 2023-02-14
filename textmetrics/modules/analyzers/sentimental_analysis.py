@@ -1,7 +1,7 @@
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 
-from text_metrics.modules.models.label_data import Polarity
+from textmetrics.modules.models.label_data import Polarity
 
 
 class SentimentalAnalysis:

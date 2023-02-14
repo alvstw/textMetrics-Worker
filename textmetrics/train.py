@@ -1,5 +1,5 @@
-from text_metrics.modules.models.label_data import Polarity
-from text_metrics.modules.training import Training
+from textmetrics.modules.models.label_data import Polarity
+from textmetrics.modules.training import Training
 
 training = Training()
 data = training.get_training_data()

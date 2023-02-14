@@ -1,5 +1,5 @@
-from text_metrics.amazon_reviews_crawler import AmazonReviewsCrawler
-from text_metrics.modules.models.amazon_review import AmazonReview
+from textmetrics.amazon_reviews_crawler import AmazonReviewsCrawler
+from textmetrics.modules.models.amazon_review import AmazonReview
 
 
 def get_amazon_reviews():

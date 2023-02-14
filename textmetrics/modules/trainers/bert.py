@@ -3,7 +3,7 @@ from torch.utils.data import TensorDataset, DataLoader
 from tqdm import tqdm
 from transformers import BertTokenizer, BertForSequenceClassification
 
-from text_metrics.modules.helpers.timer import Timer
+from textmetrics.modules.helpers.timer import Timer
 
 
 def train_bret(texts: list[str], labels: list[int]):

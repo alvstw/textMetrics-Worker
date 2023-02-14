@@ -11,8 +11,8 @@ from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from text_metrics.modules.helpers.string_helper import encode_url
-from text_metrics.modules.models.amazon_review import AmazonReview
+from textmetrics.modules.helpers.string_helper import encode_url
+from textmetrics.modules.models.amazon_review import AmazonReview
 
 
 # noinspection PyBroadException

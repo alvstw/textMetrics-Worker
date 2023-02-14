@@ -1,7 +1,7 @@
 from munch import DefaultMunch
 from requests import Response
 
-from text_metrics.modules.models.utilities.server_response import ServerResponse
+from textmetrics.modules.models.utilities.server_response import ServerResponse
 
 api_base_url = 'http://localhost:5000/api'
 

@@ -1,7 +1,7 @@
 from loguru import logger
 
-from text_metrics.amazon_reviews_crawler import AmazonReviewsCrawler
-from text_metrics.modules.helpers.server.product_api import post_amazon_product, post_product_price
+from textmetrics.amazon_reviews_crawler import AmazonReviewsCrawler
+from textmetrics.modules.helpers.server.product_api import post_amazon_product, post_product_price
 
 
 class Fetcher:

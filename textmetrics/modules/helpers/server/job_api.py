@@ -1,8 +1,8 @@
 import requests
 
-from text_metrics.modules.helpers.server import api_base_url, handle_response
-from text_metrics.modules.models.job import Job
-from text_metrics.modules.models.utilities.server_response import ServerResponse
+from textmetrics.modules.helpers.server import api_base_url, handle_response
+from textmetrics.modules.models.job import Job
+from textmetrics.modules.models.utilities.server_response import ServerResponse
 
 
 def get_jobs() -> ServerResponse[list[Job]]:
