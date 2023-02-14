@@ -30,3 +30,19 @@ def post_product_price(product_id: int, price: float, currency: str = 'USD'):
 
     response = requests.post(url)
     return handle_response(response)
+
+
+def get_product_by_asin(asin: str) -> ServerResponse[Product]:
+    response = requests.get(f'{api_base_url}/Products/{asin}?asin=true')
+    return handle_response(response)
+
+
+def get_product_by_id(product_id: int) -> ServerResponse[Product]:
+    response = requests.get(f'{api_base_url}/Products/{product_id}')
+    return handle_response(response)
+
+
+def get_products_by_name(name: str) -> ServerResponse[Product]:
+    name = encode_url(name)
+    response = requests.get(f'{api_base_url}/Products/{name}')
+    return handle_response(response)
